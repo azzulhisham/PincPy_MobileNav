@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiNC NAVIGATION</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="{{url_for('static', filename='dashboard.css')}}">
+
+    <!-- Import deck.gl standalone bundle, d3, and mapbox dependencies -->
+    <script src="https://unpkg.com/deck.gl/dist.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>   
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <!-- <img src="{{url_for('static', filename='foundry360.jpg')}}" class="logo" > -->
+            <h3>PiNC NAVIGATION</h3>
+            <div class="search-bar">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-symbols-outlined active">light_mode</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="{{url_for('static', filename='profile.jpeg')}}" alt="profile-photo">
+                    </div>
+                    <h5>zultan</h5>
+                    <span class="material-symbols-outlined">expand_more</span>                    
+                </div>
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+
+            <div class="sidebar">
+                <a href="{{ url_for('home') }}" class="active">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="{{ url_for('realtime_monitoring') }}">
+                    <span class="material-symbols-outlined">directions_boat</span>
+                    <h4>Monitoring</h4>
+                </a>  
+                <a href="{{ url_for('playback') }}">
+                    <span class="material-symbols-outlined">slow_motion_video</span>
+                    <h4>Playback</h4>
+                </a>                                
+                <a href="{{ url_for('aton') }}">
+                    <span class="material-symbols-outlined">analytics</span>
+                    <h4>ATON</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">database</span>
+                    <h4>Data Source</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h4>Settings</h4>
+                </a>                                                
+            </div>
+
+            <div class="updates">
+                <span class="material-symbols-outlined">update</span>
+                <h4>Updates Available</h4>    
+                <p>Security Updates</p>      
+                <p>General Updates</p> 
+                <a href="#">Update Now</a>           
+            </div>
+        </aside>
+
+        <section class="middle">
+            <div class="header">
+                <h1>Overview</h1>
+                <input type="date">
+            </div>
+
+            <div class="cards">
+                <div class="card" id="tss_north">
+                    <div class="top">
+                        <h2>TSS Northbound</h2>
+                    </div>
+                    <div class="middle">
+                        <h1 id="cnt_in_TSS_N">0</h1>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Left Zone</small>
+                            <h5 id="cnt_left_TSS_N">0</h5>
+                        </div>
+                        <div class="right">
+                            <small>No.</small>
+                            <h5>-</h5>
+                        </div>                       
+                    </div>
+                </div>
+
+                <div class="card" id="tss_south">
+                    <div class="top">
+                        <h2>TSS Southbound</h2>
+                    </div>
+                    <div class="middle">
+                        <h1 id="cnt_in_TSS_S">0</h1>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Left Zone</small>
+                            <h5 id="cnt_left_TSS_S">0</h5>
+                        </div>
+                        <div class="right">
+                            <small>No.</small>
+                            <h5>-</h5>
+                        </div>                       
+                    </div>
+                </div>  
+                
+                <div class="card" id="sector_7">
+                    <div class="top">
+                        <h2>Sector-7</h2>
+                    </div>
+                    <div class="middle">
+                        <h1 id="cnt_in_Sector7">0</h1>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Left Zone</small>
+                            <h5 id="cnt_left_Sector7">0</h5>
+                        </div>
+                        <div class="right">
+                            <small>No.</small>
+                            <h5>-</h5>
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+
+            <div class="monthly-report">
+                <div class="report">
+                    <h3 id="weather_data1">Total Breakdown</h3>
+                    <div>
+                        <details>
+                            <h1 id="weather_mmsi1">10</h1>
+                            <h6 class="success" id="weather_latlng1">-1.0%</h6>
+                        </details>
+                        <p class="text-muted" id="weather_ts1">Comapare to last month</p>
+                    </div>
+                </div>
+
+                <div class="report">
+                    <h3 id="weather_data2">Total Breakdown</h3>
+                    <div>
+                        <details>
+                            <h1 id="weather_mmsi2">10</h1>
+                            <h6 class="success"  id="weather_latlng2">-1.0%</h6>
+                        </details>
+                        <p class="text-muted" id="weather_ts2">Comapare to last month</p>
+                    </div>
+                </div>
+                
+                <div class="report">
+                    <h3 id="weather_data3">Total Breakdown</h3>
+                    <div>
+                        <details>
+                            <h1 id="weather_mmsi3">10</h1>
+                            <h6 class="success"  id="weather_latlng3">-1.0%</h6>
+                        </details>
+                        <p class="text-muted"  id="weather_ts3">Comapare to last month</p>
+                    </div>
+                </div>
+
+                <div class="report">
+                    <h3 id="weather_data4">Total Breakdown</h3>
+                    <div>
+                        <details>
+                            <h1 id="weather_mmsi4">10</h1>
+                            <h6 class="success"  id="weather_latlng4">+1.0%</h6>
+                        </details>
+                        <p class="text-muted"  id="weather_ts4">Comapare to last month</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-ref">
+                <h2>Data Visualisation</h2>
+            </div>
+
+            <div id="map">
+                <!-- <img id="dv-map" src="{{url_for('static', filename='map.png')}}" alt=""> -->
+            </div>
+        </section>
+
+        <section class="right">
+            <div class="summary">
+                <div class="header">
+                    <h3>Summary</h3>
+                </div>
+
+                <div class="title">
+                    <h4>Last 100 Minutes</h4>
+                </div>                
+
+                <canvas id="summary-chart1"></canvas>
+                <br>
+                <br>
+                <div class="title">
+                    <h4>Yesterday, at this moment</h4>
+                </div>                
+
+                <canvas id="summary-chart2"></canvas>    
+                <br>
+                <br>
+                <div class="title">
+                    <h4>Last year, at this moment</h4>
+                </div>                
+
+                <canvas id="summary-chart3"></canvas>                             
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{url_for('static', filename='dashboard.js')}}"></script>    
+</body>
+</html>

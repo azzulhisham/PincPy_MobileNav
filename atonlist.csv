@@ -1,0 +1,481 @@
+no,name,mmsi,region,type
+1,ANGSA BANK,995330984,Wilayah Tengah,Beacon
+2,ARANG - ARANG,995330993,Wilayah Tengah,Beacon
+3,BAMBEK,995330994,Wilayah Tengah,Beacon
+4,BATU PENYU,995330985,Wilayah Tengah,Beacon
+5,EAST BREAKWATER HEAD,995330999,Wilayah Tengah,Beacon
+6,JIMAH,995330998,Wilayah Tengah,Beacon
+7,KUALA UMBAI,995331122,Wilayah Tengah,Beacon
+8,NO. 17 ( PORT KLANG ),995330987,Wilayah Tengah,Beacon
+9,NO. 20A ( PORT KLANG ),995330988,Wilayah Tengah,Beacon
+10,NO. 25 ( PORT KLANG ),995330989,Wilayah Tengah,Beacon
+11,NO. 16 ( PORT KLANG ),995330986,Wilayah Tengah,Beacon
+12,NO. 19A ( PORT KLANG ),995331036,Wilayah Tengah,Beacon
+13,NO. 24 SG LANG (PORT KLANG),995331063,Wilayah Tengah,Beacon
+14,NO. 28 ( PORT KLANG ),995331120,Wilayah Tengah,Beacon
+15,ONE FATHOM BANK NORTH,995331130,Wilayah Tengah,Beacon
+16,PULAU TERUMBU,995330997,Wilayah Tengah,Beacon
+17,SEPANG INNER,995330995,Wilayah Tengah,Beacon
+18,SEPANG OUTER,995330996,Wilayah Tengah,Beacon
+19,TG. BRUAS,995331001,Wilayah Tengah,Beacon
+20,TG. GABANG,995330992,Wilayah Tengah,Beacon
+21,TG. HARAPAN,995330983,Wilayah Tengah,Beacon
+22,TG. MAHANG FRONT,995330981,Wilayah Tengah,Beacon
+23,TG. MAHANG REAR,995330982,Wilayah Tengah,Beacon
+24,TG. RHU,995331161,Wilayah Tengah,Beacon
+1,BATUAN MURAU,995331021,Wilayah Selatan,Beacon
+2,BATUAN SAKIT MATA,995331024,Wilayah Selatan,Beacon
+3,BATUAN TIKUS,995331025,Wilayah Selatan,Beacon
+4,DAWES ROCK,995331015,Wilayah Selatan,Beacon
+5,KARANG SI AJAR,995331020,Wilayah Selatan,Beacon
+6,KUALA BENUT,995331126,Wilayah Selatan,Beacon
+7,KUALA MUAR 1G,995331002,Wilayah Selatan,Beacon
+8,KUALA MUAR 2R,995331003,Wilayah Selatan,Beacon
+9,KUALA SG AYAM,995331125,Wilayah Selatan,Beacon
+10,KUALA SG RENGIT,995331123,Wilayah Selatan,Beacon
+11,KUKUP INNER,995331010,Wilayah Selatan,Beacon
+12,KUKUP OUTER,995331011,Wilayah Selatan,Beacon
+13,MALANG BERENDAM,995331019,Wilayah Selatan,Beacon
+14,MERSING INNER,995331022,Wilayah Selatan,Beacon
+15,MERSING OUTER,995331018,Wilayah Selatan,Beacon
+16,MUDAH SELATAN,995331006,Wilayah Selatan,Beacon
+17,MUDAH UTARA,995331007,Wilayah Selatan,Beacon
+18,PANJANG SELATAN,995331009,Wilayah Selatan,Beacon
+19,PANJANG UTARA,995331008,Wilayah Selatan,Beacon
+20,PARIT JAWA,995331147,Wilayah Selatan,Beacon
+21,PENGKALAN PENGHULU,995331145,Wilayah Selatan,Beacon
+22,PONTIAN BESAR,995331124,Wilayah Selatan,Beacon
+23,PTP SECTOR LIGHT,995331013,Wilayah Selatan,Beacon
+24,PULAU ACHI,995331028,Wilayah Selatan,Beacon
+25,PULAU HARIMAU,995331026,Wilayah Selatan,Beacon
+26,PULAU LANG,995331027,Wilayah Selatan,Beacon
+27,PULAU MERAMBONG,995331014,Wilayah Selatan,Beacon
+28,PULAU MUNGGING,995331017,Wilayah Selatan,Beacon
+29,PULAU SIALU,995331004,Wilayah Selatan,Beacon
+30,PULAU STINDAN,995331023,Wilayah Selatan,Beacon
+31,TG. PIAI,995331012,Wilayah Selatan,Beacon
+32,TG. TOHOR,995331005,Wilayah Selatan,Beacon
+33,TOMPOK UTARA,995331016,Wilayah Selatan,Beacon
+1,BATU RUSA,995331074,Wilayah Timur,Beacon
+2,BUKIT PEJAJAT,995331045,Wilayah Timur,Beacon
+3,CUKAI NO. 2,995331044,Wilayah Timur,Beacon
+4,K. KERTIH NORTH SIDE,995331057,Wilayah Timur,Beacon
+5,K. BESUT BREAKWATER,995331133,Wilayah Timur,Beacon
+6,K. PAHANG,995331136,Wilayah Timur,Beacon
+7,KEMAMAN BREAKWATER N,995331042,Wilayah Timur,Beacon
+8,KEMAMAN BREAKWATER S,995331060,Wilayah Timur,Beacon
+9,KERTIH BREAKWATER N,995331058,Wilayah Timur,Beacon
+10,KERTIH BREAKWATER S,995331059,Wilayah Timur,Beacon
+11,KERTIH FRONT,995331000,Wilayah Timur,Beacon
+12,KERTIH REAR,995331062,Wilayah Timur,Beacon
+13,KERTIH SECTOR LIGHT 1 (SL 1),995331040,Wilayah Timur,Beacon
+14,KERTIH SECTOR LIGHT 2 (SL 2),995331035,Wilayah Timur,Beacon
+15,KIJAL COAST,995331135,Wilayah Timur,Beacon
+16,KP SOUTH BREAKWATER,995331069,Wilayah Timur,Beacon
+17,KT BREAKWATER N,995331067,Wilayah Timur,Beacon
+18,KT BREAKWATER S,995331073,Wilayah Timur,Beacon
+19,KUALA BARU KERTIH,995331134,Wilayah Timur,Beacon
+20,KUALA ENDAU,995331029,Wilayah Timur,Beacon
+21,LDG LTS FRONT,995331038,Wilayah Timur,Beacon
+22,LDG LTS REAR,995331037,Wilayah Timur,Beacon
+23,MARANG BREAKWATER,995331129,Wilayah Timur,Beacon
+24,NENASI,995331137,Wilayah Timur,Beacon
+25,P. PERHENTIAN BESAR,995331076,Wilayah Timur,Beacon
+26,PULAU BATU BARA,995331071,Wilayah Timur,Beacon
+27,PULAU BERHALA,995331033,Wilayah Timur,Beacon
+28,PULAU CIPU,995331070,Wilayah Timur,Beacon
+29,PULAU KAPAS,995331064,Wilayah Timur,Beacon
+30,PULAU REDANG,995331068,Wilayah Timur,Beacon
+31,PULAU TOKONG BAHARA,995331030,Wilayah Timur,Beacon
+32,SEABELLE ROCK,995331072,Wilayah Timur,Beacon
+33,SG KUANTAN LDG LIGHT,995331121,Wilayah Timur,Beacon
+34,SG. BESUT,995331091,Wilayah Timur,Beacon
+35,SG. GOLOK TRANSIT,995331077,Wilayah Timur,Beacon
+36,TG. DUNGUN,995331066,Wilayah Timur,Beacon
+37,TG. BERHALA NO. 10,995331055,Wilayah Timur,Beacon
+38,TG. BERHALA NO. 8,995331039,Wilayah Timur,Beacon
+39,TG. BERHALA SOUTH,995331049,Wilayah Timur,Beacon
+40,TG. BERHALA EAST,995331053,Wilayah Timur,Beacon
+41,TG. BERHALA NO. 11,995331056,Wilayah Timur,Beacon
+42,TG BERHALA NO. 5,995331050,Wilayah Timur,Beacon
+43,TG. BERHALA NO. 9,995331054,Wilayah Timur,Beacon
+44,TG. BERHALA NO. 1,995331046,Wilayah Timur,Beacon
+45,TG. BERHALA NO. 2,995331047,Wilayah Timur,Beacon
+46,TG. BERHALA NO. 3,995331048,Wilayah Timur,Beacon
+47,TG BERHALA NO. 6,995331051,Wilayah Timur,Beacon
+48,TG. BERHALA NO. 7,995331041,Wilayah Timur,Beacon
+49,TG. BERHALA NORTH,995331052,Wilayah Timur,Beacon
+50,TG. LANTING,995331031,Wilayah Timur,Beacon
+51,TG. PENUBA,995331032,Wilayah Timur,Beacon
+52,TG. TEMBELING,995331034,Wilayah Timur,Beacon
+53,TOK BALI NORTH,995331078,Wilayah Timur,Beacon
+54,TOK BALI SOUTH,995331075,Wilayah Timur,Beacon
+1,BAGAN DATUK,995330990,Wilayah Utara,Beacon
+2,BATU GAJAH,995331081,Wilayah Utara,Beacon
+3,BATU KUAH,995331111,Wilayah Utara,Beacon
+4,BCT TRANSIT REAR,995331107,Wilayah Utara,Beacon
+5,BILIK REAR,995331088,Wilayah Utara,Beacon
+6,DINDING FRONT,995331084,Wilayah Utara,Beacon
+7,KRA LDG. LTS 044^04.5' FT,995331109,Wilayah Utara,Beacon
+8,KRA LDG. LTS 044^04.5' RR,995331103,Wilayah Utara,Beacon
+9,KUALA BERNAM,995331083,Wilayah Utara,Beacon
+10,KUALA BERUAS,995331117,Wilayah Utara,Beacon
+11,KUALA GULA,995331118,Wilayah Utara,Beacon
+12,KUALA KEDAH,995331104,Wilayah Utara,Beacon
+13,KUALA PERLIS,995331116,Wilayah Utara,Beacon
+14,KUALA SG BHARU,995331119,Wilayah Utara,Beacon
+15,LDG LTS 185^02' FRONT,995331101,Wilayah Utara,Beacon
+16,LDG LTS 185^02' REAR,995331102,Wilayah Utara,Beacon
+17,LLOYD ROCK,995331092,Wilayah Utara,Beacon
+18,LUMUT LDG LTS FT,995331089,Wilayah Utara,Beacon
+19,LUMUT LDG LTS RR,995331082,Wilayah Utara,Beacon
+20,MUROH,995331080,Wilayah Utara,Beacon
+21,OWEN,995331106,Wilayah Utara,Beacon
+22,PEAL,995331100,Wilayah Utara,Beacon
+23,PGB 1,995331095,Wilayah Utara,Beacon
+24,PGB 2,995331096,Wilayah Utara,Beacon
+25,PGB 3,995331097,Wilayah Utara,Beacon
+26,PGB 4,995331098,Wilayah Utara,Beacon
+27,PULAU DANGLI,995331114,Wilayah Utara,Beacon
+28,PULAU ENGGANG,995331110,Wilayah Utara,Beacon
+29,PULAU JARAK,995331105,Wilayah Utara,Beacon
+30,PULAU KEDERA,995331113,Wilayah Utara,Beacon
+31,PULAU PERAK,995331115,Wilayah Utara,Beacon
+32,PULAU TALANG,995331142,Wilayah Utara,Beacon
+33,PULAU TIKUS,995331108,Wilayah Utara,Beacon
+34,PULAU TUKUN,995331079,Wilayah Utara,Beacon
+35,RIVER ROCK,995331085,Wilayah Utara,Beacon
+36,SG. PRAI - SECTOR LIGHT,995331099,Wilayah Utara,Beacon
+37,SG. SALA,995331140,Wilayah Utara,Beacon
+38,SG. SANGLANG,995331139,Wilayah Utara,Beacon
+39,TANJUNG HANTU,995331086,Wilayah Utara,Beacon
+40,TG. DAWAI,995331093,Wilayah Utara,Beacon
+41,TG PAK KEHAR,995331112,Wilayah Utara,Beacon
+42,WHITE ROCK,995331087,Wilayah Utara,Beacon
+1,PULAU PAPAN,995331138,Wilayah Labuan,Beacon
+2,TG KUBONG,995331157,Wilayah Labuan,Beacon
+1,BAGAN NAKHODA OMAR,995331403,Wilayah Tengah Tambahan,Beacon
+2,BATU GELAMA,995331376,Wilayah Tengah Tambahan,Beacon
+3,BATUAN TENGAH,995331128,Wilayah Tengah Tambahan,Beacon
+4,BERUP PHN NORTH,995331391,Wilayah Tengah Tambahan,Beacon
+5,BERUP PHN SOUTH,995331390,Wilayah Tengah Tambahan,Beacon
+6,KUALA KESANG,995331371,Wilayah Tengah Tambahan,Beacon
+7,KUALA LINGGI INNER,995331380,Wilayah Tengah Tambahan,Beacon
+8,KUALA LINGGI OUTER,995331381,Wilayah Tengah Tambahan,Beacon
+9,KUALA LUKUT,995331383,Wilayah Tengah Tambahan,Beacon
+10,KUALA MELAKA,995331378,Wilayah Tengah Tambahan,Beacon
+11,KUALA SG BULOH,995331393,Wilayah Tengah Tambahan,Beacon
+12,KUALA SG BURONG,995331401,Wilayah Tengah Tambahan,Beacon
+13,KUALA SG SEKINCHAN,995331397,Wilayah Tengah Tambahan,Beacon
+14,KUALA SG SELANGOR,995331394,Wilayah Tengah Tambahan,Beacon
+15,KUALA SG.BARU,995331379,Wilayah Tengah Tambahan,Beacon
+16,PENG. SEBATU OUTER,995331373,Wilayah Tengah Tambahan,Beacon
+17,PULAU BATU BESAR,995331127,Wilayah Tengah Tambahan,Beacon
+18,PULAU KETAM,995331392,Wilayah Tengah Tambahan,Beacon
+19,PULAU PANJANG,995331377,Wilayah Tengah Tambahan,Beacon
+20,SEPAT RLB,995331340,Wilayah Tengah Tambahan,Beacon
+21,SG TENGKORAK OUTER,995331396,Wilayah Tengah Tambahan,Beacon
+22,SG.BAKAR ARANG,995331384,Wilayah Tengah Tambahan,Beacon
+23,SG. BESAR INNER,995331399,Wilayah Tengah Tambahan,Beacon
+24,SG. BESAR OUTER,995331400,Wilayah Tengah Tambahan,Beacon
+25,SG. DUYONG,995331375,Wilayah Tengah Tambahan,Beacon
+26,SG. HAJI DORANI,995331398,Wilayah Tengah Tambahan,Beacon
+27,SG.LANGAT 1,995331387,Wilayah Tengah Tambahan,Beacon
+28,SG.LANGAT 2,995331388,Wilayah Tengah Tambahan,Beacon
+29,SG.LANGAT 3,995331389,Wilayah Tengah Tambahan,Beacon
+30,SG. PULAI,995331402,Wilayah Tengah Tambahan,Beacon
+31,SG.RAMBAI,995331385,Wilayah Tengah Tambahan,Beacon
+32,TELUK PULAI,995331374,Wilayah Tengah Tambahan,Beacon
+33,TELUK SINTING,995331382,Wilayah Tengah Tambahan,Beacon
+34,TG. KARANG,995331395,Wilayah Tengah Tambahan,Beacon
+1,ENDAU OUTER,995331354,Wilayah Selatan Tambahan,Beacon
+2,JETI JLWS 1G,995331370,Wilayah Selatan Tambahan,Beacon
+3,JETI JLWS 2R,995331369,Wilayah Selatan Tambahan,Beacon
+4,KUALA SEDILI INNER,995331131,Wilayah Selatan Tambahan,Beacon
+5,MERSING JETTY,995331355,Wilayah Selatan Tambahan,Beacon
+6,PARIT BOTAK,995331146,Wilayah Selatan Tambahan,Beacon
+7,TG PENGELIH 1G,995331366,Wilayah Selatan Tambahan,Beacon
+1,TG PENGELIH 2R,995331367,Wilayah Selatan Tambahan,Beacon
+9,TG. LEMAN PORT,995331356,Wilayah Selatan Tambahan,Beacon
+10,TG. LEMAN STBD,995331357,Wilayah Selatan Tambahan,Beacon
+11,TG.STAPA,995331365,Wilayah Selatan Tambahan,Beacon
+1,BATUAN PONTIAN,995331352,Wilayah Timur Tambahan,Beacon
+2,CHENDERING SOUTH,995331344,Wilayah Timur Tambahan,Beacon
+3,KP MID BREAKWATER,995330052,Wilayah Timur Tambahan,Beacon
+4,KP NDWT SECTOR LIGHT,995330048,Wilayah Timur Tambahan,Beacon
+5,KP NO 1,995330041,Wilayah Timur Tambahan,Beacon
+6,KP NO 2,995330042,Wilayah Timur Tambahan,Beacon
+7,KP NO 3,995330043,Wilayah Timur Tambahan,Beacon
+8,KP NO 5,995330045,Wilayah Timur Tambahan,Beacon
+9,KP NO 6,995330046,Wilayah Timur Tambahan,Beacon
+10,KUALA ROMPIN,995331351,Wilayah Timur Tambahan,Beacon
+11,MARINA TIOMAN BKWR S,995331353,Wilayah Timur Tambahan,Beacon
+12,NDWT BREAKWATER 3G,995330053,Wilayah Timur Tambahan,Beacon
+13,NDWT BREAKWATER 5Y,995331348,Wilayah Timur Tambahan,Beacon
+14,P. TOKONG BATU KEMUDI,995331345,Wilayah Timur Tambahan,Beacon
+15,PENGKALAN DATU,995331341,Wilayah Timur Tambahan,Beacon
+16,PULAU LENG,995331343,Wilayah Timur Tambahan,Beacon
+17,PULAU TOKONG DAYAK,995331065,Wilayah Timur Tambahan,Beacon
+18,SUNGAI KUANTAN,995331350,Wilayah Timur Tambahan,Beacon
+19,Batu Rakit,995331571,Wilayah Timur Tambahan,Beacon
+20,KT INNER S,995331572,Wilayah Timur Tambahan,Beacon
+21,KT INNER N,995331573,Wilayah Timur Tambahan,Beacon
+22,TG. GENTING,995331577,Wilayah Timur Tambahan,Beacon
+23,MARINA TIOMAN BKWR N,995331578,Wilayah Timur Tambahan,Beacon
+1,AWANG KECIL,995331409,Wilayah Utara Tambahan,Beacon
+2,BATU MANDI,995331410,Wilayah Utara Tambahan,Beacon
+3,BILIK LDG LTS FRONT,995331411,Wilayah Utara Tambahan,Beacon
+4,BUMBON KECIL,995331427,Wilayah Utara Tambahan,Beacon
+5,KOTA SETIA,995331405,Wilayah Utara Tambahan,Beacon
+6,KUALA JARUM MAS,995331412,Wilayah Utara Tambahan,Beacon
+7,KUALA JERLUN,995331143,Wilayah Utara Tambahan,Beacon
+8,KUALA KERIAN,995331416,Wilayah Utara Tambahan,Beacon
+9,KUALA KURAU,995331414,Wilayah Utara Tambahan,Beacon
+10,KUALA LARUT,995331413,Wilayah Utara Tambahan,Beacon
+11,KUALA MUDA,995331424,Wilayah Utara Tambahan,Beacon
+12,KUALA SG CENAAM,995331415,Wilayah Utara Tambahan,Beacon
+13,KUALA SG JALAN BHARU,995331422,Wilayah Utara Tambahan,Beacon
+14,KUALA SG PINANG,995331423,Wilayah Utara Tambahan,Beacon
+15,OFF TANJUNG ASAM,995331432,Wilayah Utara Tambahan,Beacon
+16,P. ANCHORAGE S.LIM 7,995331419,Wilayah Utara Tambahan,Beacon
+17,P. ANCHORAGE S.LIM 8,995331420,Wilayah Utara Tambahan,Beacon
+18,PULAU BETONG,995331421,Wilayah Utara Tambahan,Beacon
+19,PULAU BUMBON BESAR,995331428,Wilayah Utara Tambahan,Beacon
+20,PULAU KATAK,995331406,Wilayah Utara Tambahan,Beacon
+21,PULAU KERENGGA,995331429,Wilayah Utara Tambahan,Beacon
+22,PULAU SIGAL,995331433,Wilayah Utara Tambahan,Beacon
+23,PUTIH (PH),995331408,Wilayah Utara Tambahan,Beacon
+24,SG.TIANG,995331404,Wilayah Utara Tambahan,Beacon
+25,SG. YAN,995331144,Wilayah Utara Tambahan,Beacon
+26,SOUTH EAST POINT,995331417,Wilayah Utara Tambahan,Beacon
+27,TANJUNG ASAM,995331431,Wilayah Utara Tambahan,Beacon
+28,TANJUNG CHINCIN,995331434,Wilayah Utara Tambahan,Beacon
+29,TELUK BATU ANJING,995331430,Wilayah Utara Tambahan,Beacon
+30,TG. PIANDANG,995331141,Wilayah Utara Tambahan,Beacon
+31,PERPAT,995331575,Wilayah Utara Tambahan,Beacon
+1,Barat Banks (BB),995330977,Wilayah Labuan Tambahan,Beacon
+2,Sg.Klias,995330976,Wilayah Labuan Tambahan,Beacon
+1,PORT KLANG NO. 9,995331277,Wilayah Tengah,Buoy
+2,CHANNEL PORT DICKSON,995331268,Wilayah Tengah,Buoy
+3,KUALA LINGGI NO 3,995331287,Wilayah Tengah,Buoy
+4,PINTU GEDONG,995331269,Wilayah Tengah,Buoy
+5,PORT DICKSON NO 2,995331288,Wilayah Tengah,Buoy
+6,PORT KLANG NO. 1,995331284,Wilayah Tengah,Buoy
+7,PORT KLANG NO.10,995331278,Wilayah Tengah,Buoy
+8,PORT KLANG NO.11,995331279,Wilayah Tengah,Buoy
+9,PORT KLANG NO.12,995331281,Wilayah Tengah,Buoy
+10,PORT KLANG NO.14,995331280,Wilayah Tengah,Buoy
+11,PORT KLANG NO. 2,995331275,Wilayah Tengah,Buoy
+12,PORT KLANG NO. 7,995331274,Wilayah Tengah,Buoy
+13,PORT KLANG NO.8,995331276,Wilayah Tengah,Buoy
+14,SELAT PK,995331272,Wilayah Tengah,Buoy
+15,SG. AGAS,995331204,Wilayah Tengah,Buoy
+16,SG. KLANG NO. 1,995331200,Wilayah Tengah,Buoy
+17,SINAR JAYA WRECK,995331283,Wilayah Tengah,Buoy
+18,SUNGAI UDANG NO 1,995331264,Wilayah Tengah,Buoy
+19,SUNGAI UDANG NO 10,995331267,Wilayah Tengah,Buoy
+20,SUNGAI UDANG NO 3,995331265,Wilayah Tengah,Buoy
+21,SUNGAI UDANG NO 5,995331266,Wilayah Tengah,Buoy
+22,TAIL,995331282,Wilayah Tengah,Buoy
+23,TENTERAM,995331201,Wilayah Tengah,Buoy
+24,TERUSAN,995331270,Wilayah Tengah,Buoy
+25,TIRAM,995331203,Wilayah Tengah,Buoy
+1,BC 1,995331237,Wilayah Selatan,Buoy
+2,BC 2,995331236,Wilayah Selatan,Buoy
+3,BC 3,995331235,Wilayah Selatan,Buoy
+4,BC 5,995331238,Wilayah Selatan,Buoy
+5,FARMOSA,995331263,Wilayah Selatan,Buoy
+6,LIMA BUOY,995331239,Wilayah Selatan,Buoy
+7,M1,995331246,Wilayah Selatan,Buoy
+8,M2,995331245,Wilayah Selatan,Buoy
+9,M3,995331243,Wilayah Selatan,Buoy
+10,M4,995331244,Wilayah Selatan,Buoy
+11,MASAI,995331242,Wilayah Selatan,Buoy
+12,MERLIN ROCK,995331234,Wilayah Selatan,Buoy
+13,P19,995331248,Wilayah Selatan,Buoy
+14,P21,995331247,Wilayah Selatan,Buoy
+15,PIAI BUOY,995331262,Wilayah Selatan,Buoy
+16,PTP NO.1,995331250,Wilayah Selatan,Buoy
+17,PTP NO.10,995331259,Wilayah Selatan,Buoy
+18,PTP NO.12,995331260,Wilayah Selatan,Buoy
+19,PTP N0.2,995331251,Wilayah Selatan,Buoy
+20,PTP NO.3,995331252,Wilayah Selatan,Buoy
+21,PTP NO.4,995331253,Wilayah Selatan,Buoy
+22,PTP NO.5,995331254,Wilayah Selatan,Buoy
+23,PTP NO.6,995331255,Wilayah Selatan,Buoy
+24,PTP NO.7,995331256,Wilayah Selatan,Buoy
+25,PTP NO.9,995331258,Wilayah Selatan,Buoy
+26,PTP NO.14,995331261,Wilayah Selatan,Buoy
+27,PTP NO.8,995331257,Wilayah Selatan,Buoy
+28,SP 1,995331249,Wilayah Selatan,Buoy
+29,PULAU NENAS,995331240,Wilayah Selatan,Buoy
+30,TANJONG KABONG,995331241,Wilayah Selatan,Buoy
+1,ARISTAIOS,995331231,Wilayah Timur,Buoy
+2,K. BESUT FAIRWAY,995331210,Wilayah Timur,Buoy
+3,KEMAMAN BUOY,995331229,Wilayah Timur,Buoy
+4,KERTIH N PORT LIMIT,995331212,Wilayah Timur,Buoy
+5,KERTIH N1,995331222,Wilayah Timur,Buoy
+6,KERTIH N2,995331223,Wilayah Timur,Buoy
+7,KERTIH N4,995331225,Wilayah Timur,Buoy
+8,KERTIH PORT NO.4R,995331216,Wilayah Timur,Buoy
+9,KERTIH PORT NO.3G,995331215,Wilayah Timur,Buoy
+10,KERTIH PORT NO.7R,995331219,Wilayah Timur,Buoy
+11,KERTIH PORT NO.9G,995331221,Wilayah Timur,Buoy
+12,KERTIH PORT NO.1G,995331213,Wilayah Timur,Buoy
+13,KERTIH PORT NO.2R,995331214,Wilayah Timur,Buoy
+14,KERTIH PORT NO.5G,995331217,Wilayah Timur,Buoy
+15,KERTIH PORT NO.6R,995331218,Wilayah Timur,Buoy
+16,KUALA ENDAU 1G,995331232,Wilayah Timur,Buoy
+17,KUALA ENDAU 3G,995331233,Wilayah Timur,Buoy
+18,KP INNER FAIRWAY,995331230,Wilayah Timur,Buoy
+19,SEA BUOY,995331228,Wilayah Timur,Buoy
+20,TOK BALI 1R,995331208,Wilayah Timur,Buoy
+21,TOK BALI 2G,995331207,Wilayah Timur,Buoy
+22,TOK BALI FAIRWAY,995331206,Wilayah Timur,Buoy
+23,TOK BALI NO. 2,995331209,Wilayah Timur,Buoy
+24,TOK BALI NO. 1,995331205,Wilayah Timur,Buoy
+25,UNION STAR WRECK,995331211,Wilayah Timur,Buoy
+26,PATON BANK,995331227,Wilayah Timur,Buoy
+27,KERTIH N3,995331224,Wilayah Timur,Buoy
+28,KERTIH N5,995331226,Wilayah Timur,Buoy
+29,KERTIH PORT NO.8R,995331220,Wilayah Timur,Buoy
+1,BUMBON WRECK,995331334,Wilayah Utara,Buoy
+2,DINDING,995331295,Wilayah Utara,Buoy
+3,EAST BANK,995331298,Wilayah Utara,Buoy
+4,FERRY WRECK,995331306,Wilayah Utara,Buoy
+5,JERKUM 1,995331335,Wilayah Utara,Buoy
+6,JERKUM 2,995331336,Wilayah Utara,Buoy
+7,MB2,995331294,Wilayah Utara,Buoy
+8,NORTH CHANNEL,995331305,Wilayah Utara,Buoy
+9,NW3,995331300,Wilayah Utara,Buoy
+10,PENANG 1G,995331307,Wilayah Utara,Buoy
+11,PENANG 1R,995331308,Wilayah Utara,Buoy
+12,PENANG 2G,995331309,Wilayah Utara,Buoy
+13,PENANG 2R,995331310,Wilayah Utara,Buoy
+14,PENANG 3G,995331311,Wilayah Utara,Buoy
+15,PENANG 3R,995331312,Wilayah Utara,Buoy
+16,PENANG 4G,995331313,Wilayah Utara,Buoy
+17,PENANG 4R,995331314,Wilayah Utara,Buoy
+18,PENANG 5G,995331315,Wilayah Utara,Buoy
+19,PENANG 5R,995331316,Wilayah Utara,Buoy
+20,PENANG 6G,995331317,Wilayah Utara,Buoy
+21,PENANG 6R,995331318,Wilayah Utara,Buoy
+22,RIMAU FAIRWAY,995331303,Wilayah Utara,Buoy
+23,RIVER PASSAGE,995331301,Wilayah Utara,Buoy
+24,SELAT,995331299,Wilayah Utara,Buoy
+25,SELAT CINCIN FAIRWAY,995331330,Wilayah Utara,Buoy
+26,SELAT 2G,995331296,Wilayah Utara,Buoy
+27,SELAT 2R,995331297,Wilayah Utara,Buoy
+28,SINGA SHOAL,995331337,Wilayah Utara,Buoy
+29,SOUTHERN WRECK,995331304,Wilayah Utara,Buoy
+30,TOKONG G,995331328,Wilayah Utara,Buoy
+31,TOKONG R,995331329,Wilayah Utara,Buoy
+32,TELOK EWA NO.1G,995331331,Wilayah Utara,Buoy
+33,TELOK EWA NO.2G,995331332,Wilayah Utara,Buoy
+34,TELOK EWA NO.3G,995331333,Wilayah Utara,Buoy
+35,KUALA KEDAH 2R,995331302,Wilayah Utara,Buoy
+36,PERAK FAIRWAY,995331338,Wilayah Utara,Buoy
+37,TLDM LANGKAWI 1,995331061,Wilayah Utara,Buoy
+38,TLDM LANGKAWI 2,995331090,Wilayah Utara,Buoy
+1,DEEP WATER NO.6,995331320,Wilayah Labuan,Buoy
+2,EAST CHANNEL NO.1G,995331321,Wilayah Labuan,Buoy
+3,EAST CHANNEL NO.1R,995331322,Wilayah Labuan,Buoy
+4,EAST CHANNEL NO.2G,995331323,Wilayah Labuan,Buoy
+5,EAST CHANNEL NO.3G,995331324,Wilayah Labuan,Buoy
+6,FAIRWAY,995331325,Wilayah Labuan,Buoy
+7,HARBOUR SHOAL,995331319,Wilayah Labuan,Buoy
+8,OUTER SHOAL,995331326,Wilayah Labuan,Buoy
+9,TRIDENT SHOAL,995331327,Wilayah Labuan,Buoy
+1,Kuala Linggi No 1,995331487,Wilayah Tengah Tambahan,Buoy
+2,Kuala Linggi No 2,995331489,Wilayah Tengah Tambahan,Buoy
+3,Port Dickson Fairway,995331486,Wilayah Tengah Tambahan,Buoy
+4,Karang,995331476,Wilayah Tengah Tambahan,Buoy
+5,Port Klang No 13,995331480,Wilayah Tengah Tambahan,Buoy
+6,Port Klang No 3,995331477,Wilayah Tengah Tambahan,Buoy
+7,Port Klang No 4,995331478,Wilayah Tengah Tambahan,Buoy
+8,Port Klang No 6,995331479,Wilayah Tengah Tambahan,Buoy
+9,Elbow,995331481,Wilayah Tengah Tambahan,Buoy
+10,Mahang 1,995331482,Wilayah Tengah Tambahan,Buoy
+11,Mahang 2,995331483,Wilayah Tengah Tambahan,Buoy
+12,Kuala Langat 1G,995331484,Wilayah Tengah Tambahan,Buoy
+13,Kwang Sin Wreck,995331485,Wilayah Tengah Tambahan,Buoy
+14,FAIRWAY PK,995331574,Wilayah Selatan Tambahan,Buoy
+1,Puteri Harbour,995331490,Wilayah Selatan Tambahan,Buoy
+2,Tanjung Kopok,995331491,Wilayah Selatan Tambahan,Buoy
+3,Puteri Sea,995331492,Wilayah Selatan Tambahan,Buoy
+4,Ordnance,995331582,Wilayah Selatan Tambahan,Buoy
+5,Spoilground,995331583,Wilayah Selatan Tambahan,Buoy
+6,Gudong,995331584,Wilayah Selatan Tambahan,Buoy
+7,TLR,995331585,Wilayah Selatan Tambahan,Buoy
+8,TLS 1,995331586,Wilayah Selatan Tambahan,Buoy
+9,TLS 2,995331587,Wilayah Selatan Tambahan,Buoy
+10,TLG,995331588,Wilayah Selatan Tambahan,Buoy
+11,Malang,995331589,Wilayah Selatan Tambahan,Buoy
+12,BATUAN NEVVILE (NR),995330980,Wilayah Selatan Tambahan,Buoy
+13,Poh Lai,995331435,Wilayah Selatan Tambahan,Buoy
+14,PG1-4,995331436,Wilayah Selatan Tambahan,Buoy
+15,PG 1-5,995331437,Wilayah Selatan Tambahan,Buoy
+16,PG 1-6,995331438,Wilayah Selatan Tambahan,Buoy
+17,PG 1-7,995331439,Wilayah Selatan Tambahan,Buoy
+18,SP 2,995331440,Wilayah Selatan Tambahan,Buoy
+19,TG. STAPA MOLF 1,995331604,Wilayah Selatan Tambahan,Buoy
+20,TG. STAPA MOLF 2,995331605,Wilayah Selatan Tambahan,Buoy
+1,Kuala Nenasi (KN),995331493,Wilayah Timur Tambahan,Buoy
+2,Kuala Pahang Fairway (KPF),995331494,Wilayah Timur Tambahan,Buoy
+3,Air Leleh Selatan (ALS),995331495,Wilayah Timur Tambahan,Buoy
+4,Air Leleh Utara (ALU),995331496,Wilayah Timur Tambahan,Buoy
+5,Sungai Kuantan Outer (SKO),995331497,Wilayah Timur Tambahan,Buoy
+6,Sungai Kuantan Inner (SKI),995331498,Wilayah Timur Tambahan,Buoy
+7,Kuantan Port Outer Fairway (KPOF),995331499,Wilayah Timur Tambahan,Buoy
+8,Rico Wreck (RW),995331550,Wilayah Timur Tambahan,Buoy
+9,Sungai Kemaman Outer,995331551,Wilayah Timur Tambahan,Buoy
+10,Kuala Terengganu Fairway,995331552,Wilayah Timur Tambahan,Buoy
+11,Kuala Besut 1G,995331553,Wilayah Timur Tambahan,Buoy
+12,Kuala Besut 2R,995331554,Wilayah Timur Tambahan,Buoy
+13,Kuala Besar Fairway (KBF),995331555,Wilayah Timur Tambahan,Buoy
+14,Tumpat Wreck (TW),995331579,Wilayah Timur Tambahan,Buoy
+15,Kuala Besar 1R (KB1R),995331580,Wilayah Timur Tambahan,Buoy
+16,KP NO 4,995330044,Wilayah Timur Tambahan,Buoy
+1,Cable 1,995331467,Wilayah Utara Tambahan,Buoy
+2,Cable 2,995331468,Wilayah Utara Tambahan,Buoy
+3,Alpha,995331469,Wilayah Utara Tambahan,Buoy
+4,Beta,995331470,Wilayah Utara Tambahan,Buoy
+5,Rimau No. 3R,995331471,Wilayah Utara Tambahan,Buoy
+6,Malvest Wreck,995331472,Wilayah Utara Tambahan,Buoy
+7,MC PEGASUS WRECK,995331442,Wilayah Utara Tambahan,Buoy
+8,ASTON,995331443,Wilayah Utara Tambahan,Buoy
+9,KUALA PERLIS 3G,995331590,Wilayah Utara Tambahan,Buoy
+10,KUALA PERLIS 3R,995331591,Wilayah Utara Tambahan,Buoy
+11,KUALA PERLIS 4G,995331592,Wilayah Utara Tambahan,Buoy
+12,KUALA PERLIS 4R,995331593,Wilayah Utara Tambahan,Buoy
+13,KUALA PERLIS 5G,995331594,Wilayah Utara Tambahan,Buoy
+14,KUALA PERLIS 5R,995331595,Wilayah Utara Tambahan,Buoy
+15,KUALA KEDAH N0. 2R,995331596,Wilayah Utara Tambahan,Buoy
+16,KUALA KEDAH 1G,995331441,Wilayah Utara Tambahan,Buoy
+17,KUALA KEDAH 3G,995331598,Wilayah Utara Tambahan,Buoy
+18,KUALA KEDAH 3R,995331599,Wilayah Utara Tambahan,Buoy
+19,TELUK EWA NO.1R,995331581,Wilayah Utara Tambahan,Buoy
+20,SELAT PENARAK,995331602,Wilayah Utara Tambahan,Buoy
+21,BUMBON GREEN,995331603,Wilayah Utara Tambahan,Buoy
+1,Deep Water Channel No.1,995331556,Wilayah Labuan Tambahan,Buoy
+2,Deep Water Channel No.2,995331557,Wilayah Labuan Tambahan,Buoy
+3,Deep Water Channel No.3,995331558,Wilayah Labuan Tambahan,Buoy
+4,Deep Water Channel No.4,995331559,Wilayah Labuan Tambahan,Buoy
+5,Deep Water Channel No.7,995331560,Wilayah Labuan Tambahan,Buoy
+6,Deep Water Channel No.8,995331561,Wilayah Labuan Tambahan,Buoy
+7,East Channel No.2R,995331562,Wilayah Labuan Tambahan,Buoy
+8,East Channel No.4G,995331563,Wilayah Labuan Tambahan,Buoy
+9,TELUK EWA NO.2R,995331600,Wilayah Utara Tambahan,Buoy
+10,TELUK EWA NO.3R,995331601,Wilayah Utara Tambahan,Buoy
+1,KUALA SELANGOR,995331150,Wilayah Tengah,Lighthouse
+2,PULAU ANGSA,995331152,Wilayah Tengah,Lighthouse
+3,ONE FATHOM BANK (OFB),995331151,Wilayah Tengah,Lighthouse
+4,BUKIT JUGRA,995331153,Wilayah Tengah,Lighthouse
+5,TANJUNG TUAN,995331154,Wilayah Tengah,Lighthouse
+6,PULAU UNDAN,995331155,Wilayah Tengah,Lighthouse
+7,BUKIT SEGENTING,995331156,Wilayah Selatan,Lighthouse
+8,TANJUNG GELANG,995331162,Wilayah Timur,Lighthouse
+9,FORT CORNWALLIS,995331163,Wilayah Utara,Lighthouse
+10,PULAU RIMAU,995331164,Wilayah Utara,Lighthouse
+11,MUKA HEAD,995331165,Wilayah Utara,Lighthouse
+12,PULAU KURAMAN,995331166,Labuan,Lighthouse

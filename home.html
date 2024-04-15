@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container">
+        <div id="distance" class="distance-bar distance-bar-deactive">
+            <span class="material-symbols-outlined">square_foot</span>
+            <input id="meas_dist" type="text" placeholder="Meas. Distance: " readonly>
+        </div>
+        <div class="search-bar">
+            <span class="material-symbols-outlined">search</span>
+            <input id="search_mmsi" type="search" placeholder="Search MMSI">
+        </div>
+    </div>
+
+    <div id="map">
+
+    </div>
+
+    <!-- Vessel Info Panel -->
+    <div class="vessel-info">
+        <div class="vessel-info-title">
+            <h4>MMSI<span id="det-mmsi-title"></span></h4>
+        </div>
+        <div class="close-icon" id="closeVesselInfo">
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+
+        <img id="det-shipimg" src="{{url_for('static', filename='LANGKAWI_EKSPRES_I.jpeg')}}" />
+
+        <div class="detail-info">
+            <div>
+                <label for="shiptype">Ship Type</label>
+                <span name="shiptype" id="det-shiptype">: 1</span>
+            </div>
+            <div>
+                <label for="shipname">Ship Name</label>
+                <span name="shipname" id="det-shipname">: Langkawi</span>
+            </div>
+            <div>
+                <label for="mmsi">MMSI</label>
+                <span name="mmsi" id="det-mmsi">: 533003500</span>
+            </div>
+            <div>
+                <label for="imo">IMO</label>
+                <span name="imo" id="det-imo">: 533003500</span>
+            </div>
+            <div>
+                <label for="callsign">Call Sign</label>
+                <span name="callsign" id="det-callsign">: 533003500</span>
+            </div>  
+            <div>
+                <label for="Officialno">Official No.</label>
+                <span name="Officialno" id="det-officialno">: 533003500</span>
+            </div>  
+            <div>
+                <label for="flag">Flag</label>
+                <span name="flag" id="det-flag">: 533003500</span>
+            </div>  
+            <div>
+                <label for="length">Length</label>
+                <span name="length" id="det-length">: 533003500</span>
+            </div>  
+            <div>
+                <label for="depth">Depth</label>
+                <span name="depth" id="det-depth">: 533003500</span>
+            </div> 
+            <div>
+                <label for="draught">Draught</label>
+                <span name="draught" id="det-draught">: 533003500</span>
+            </div> 
+            <div>
+                <label for="deadweight">Dead Weight</label>
+                <span name="deadweight" id="det-deadweight">: 533003500</span>
+            </div>   
+            <div>
+                <label for="grosstonnage">Gross Tonnage</label>
+                <span name="grosstonnage" id="det-grosstonnage">: 533003500</span>
+            </div> 
+            <div>
+                <label for="netonnage">Net Tonnage</label>
+                <span name="nettonnage" id="det-nettonnage">: 533003500</span>
+            </div> 
+            <div>
+                <label for="countrybuild">Country Build</label>
+                <span name="countrybuild" id="det-countrybuild">: 533003500</span>
+            </div>  
+            <div>
+                <label for="yearofbuild">Year of Build</label>
+                <span name="yearofbuild" id="det-yearofbuild">: 533003500</span>
+            </div>  
+        </div>
+    </div>
+
+
+
+    <script src="{{url_for('static', filename='home.js')}}"></script>    
+{% endblock content %}
+

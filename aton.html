@@ -1,0 +1,502 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h3>ATON Dashboard</h3>
+        </div>
+        <div class="cards">
+            <div class="card" id="tss_north">
+                <div class="top">
+                    <h4>Message 6</h4>
+                </div>
+                <div class="middle">
+                    <h3 id="cnt_in_msg6">0</h3>
+                </div>
+            </div>
+
+            <div class="card" id="tss_south">
+                <div class="top">
+                    <h4>Message 21</h4>
+                </div>
+                <div class="middle">
+                    <h3 id="cnt_in_msg21">0</h3>
+                </div>
+            </div>  
+            
+            <div class="card">
+                <div class="top">
+                    <h4>Message 8</h4>
+                </div>
+                <div class="middle">
+                    <h3 id="cnt_in_msg8">0</h3>
+                </div>
+            </div>       
+            
+            <div class="card">
+                <div class="top">
+                    <h4>Total Sites</h4>
+                </div>
+                <div class="middle">
+                    <h3 id="cnt_in_aton">0</h3>
+                </div>
+            </div>   
+            <br>
+            <div class="card">
+                <div class="top">
+                    <h4>No Message 6</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_nomsg6">0</h3>
+                </div>
+            </div>  
+
+            <div class="card">
+                <div class="top">
+                    <h4>Light Error</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_light">0</h3>
+                </div>
+            </div>    
+            
+            <div class="card">
+                <div class="top">
+                    <h4>Batt. ATON</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_battAton">0</h3>
+                </div>
+            </div>    
+            
+            <div class="card">
+                <div class="top">
+                    <h4>Batt. Lantern</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_battLant">0</h3>
+                </div>
+            </div> 
+          
+            <div class="card">
+                <div class="top">
+                    <h4>Bad LDR</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_ldr">0</h3>
+                </div>
+            </div>   
+            
+            <div class="card">
+                <div class="top">
+                    <h4>Off Pos.</h4>
+                </div>
+                <div class="middle-alarm">
+                    <h3 id="cnt_in_offpos">0</h3>
+                </div>
+            </div>             
+        </div>        
+    </div>
+
+    <div class="container">
+        <div id="distance" class="distance-bar distance-bar-deactive">
+            <span class="material-symbols-outlined">square_foot</span>
+            <input id="meas_dist" type="text" placeholder="Meas. Distance: " readonly>
+        </div>
+        <div class="search-bar">
+            <span class="material-symbols-outlined">search</span>
+            <input id="search_mmsi" type="search" placeholder="Search MMSI">
+        </div>
+    </div>
+
+    <div id="map">
+
+    </div>
+
+    <!-- Vessel Info Panel -->
+    <div class="vessel-info">
+        <div class="vessel-info-title">
+            <h4>MMSI<span id="det-mmsi-title"></span></h4>
+        </div>
+        <div class="close-icon" id="closeVesselInfo">
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+
+        <br>
+
+        <div id="aton-info" class="aton-detail-info">
+            <div>
+                <label for="atontype">ATON</label>
+                <span name="atontype" id="det-atontype">: 1</span>
+            </div>
+            <div>
+                <label for="atonname">ATON Name</label>
+                <span name="atonname" id="det-atonname">: Langkawi</span>
+            </div>
+            <div>
+                <label for="mmsi">MMSI</label>
+                <span name="mmsi" id="det-atonmmsi">: 533003500</span>
+            </div>
+            <div>
+                <label for="region">Region</label>
+                <span name="region" id="det-atonregion">: 533003500</span>
+            </div>
+
+            <div>
+                <label for="aidType">ATON Type</label>
+                <span name="aidType" id="det-aidType">: 1</span>
+            </div>
+            <div>
+                <label for="aidTypeDesc">ATON Type Desc.</label>
+                <span name="aidTypeDesc" id="det-aidTypeDesc">: Langkawi</span>
+            </div>
+            <div>
+                <label for="aidName">Aid Name</label>
+                <span name="aidName" id="det-aidName">: 533003500</span>
+            </div>
+
+            <div>
+                <label for="positionAccuracyDesc">Position Accuracy Desc.</label>
+                <span name="positionAccuracyDesc" id="det-positionAccuracyDesc">: 533003500</span>
+            </div>
+            <div>
+                <label for="longitude">Longitude</label>
+                <span name="longitude" id="det-longitude">: 533003500</span>
+            </div>  
+            <div>
+                <label for="latitude">Latitude</label>
+                <span name="latitude" id="det-latitude">: 533003500</span>
+            </div>  
+
+            <div>
+                <label for="to-bow">To-Bow</label>
+                <span name="to-bow" id="det-to-bow">: 533003500</span>
+            </div> 
+            <div>
+                <label for="to-stern">To-Stern</label>
+                <span name="to-stern" id="det-to-stern">: 533003500</span>
+            </div> 
+            <div>
+                <label for="to-port">To-Port</label>
+                <span name="to-port" id="det-to-port">: 533003500</span>
+            </div>   
+            <div>
+                <label for="to-starboard">To-Starboard</label>
+                <span name="to-starboard" id="det-to-starboard">: 533003500</span>
+            </div> 
+            <div>
+                <label for="epfdDesc">EPFD Desc.</label>
+                <span name="epfdDesc" id="det-epfdDesc">: 533003500</span>
+            </div> 
+            <div>
+                <label for="utc-second">UTC Second</label>
+                <span name="utc-second" id="det-utc-second">: 533003500</span>
+            </div>  
+            <div>
+                <label for="utc-second">Off Pos.</label>
+                <span name="utc-second" id="det-off-position">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy_photocell">Regional</label>
+                <span name="buoy_photocell" id="det-regional">: 533003500</span>
+            </div> 
+            <div>
+                <label for="regional">Raim Flag</label>
+                <span name="regional" id="det-raimFlag">: 533003500</span>
+            </div>     
+            <div>
+                <label for="virtualAid">Virtual AID</label>
+                <span name="virtualAid" id="det-virtualAid">: 533003500</span>
+            </div>                                            
+            <div>
+                <label for="assigned">Assigned</label>
+                <span name="assigned" id="det-assigned">: 533003500</span>
+            </div>  
+        </div>      
+
+        <div id="dac533-fid1" class="aton-detail-info">
+            <div>
+                <label for="aton">ATON</label>
+                <span name="aton" id="det-shiptype-fid1">: 1</span>
+            </div>
+            <div>
+                <label for="atonname">ATON Name</label>
+                <span name="atonname" id="det-shipname-fid1">: Langkawi</span>
+            </div>
+            <div>
+                <label for="mmsi">MMSI</label>
+                <span name="mmsi" id="det-mmsi-fid1">: 533003500</span>
+            </div>
+
+            <div>
+                <label for="voltage-int">ATON Volt.</label>
+                <span name="voltage-int" id="det-voltage-int-fid1">: 533003500</span>
+            </div>
+            <div>
+                <label for="voltage-ext1">Lantern Volt.</label>
+                <span name="voltage-ext1" id="det-voltage-ext1-fid1">: 533003500</span>
+            </div>  
+            <div>
+                <label for="thermal-temp">Racon Volt.</label>
+                <span name="thermal-temp" id="det-thermal-temp-fid1">: 533003500</span>
+            </div>  
+
+            <div>
+                <label for="racon">Racon</label>
+                <span name="racon" id="det-racon-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="light">Light</label>
+                <span name="light" id="det-light-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="health">Health</label>
+                <span name="health" id="det-health-fid1">: 533003500</span>
+            </div>   
+            <div>
+                <label for="beat">Beat</label>
+                <span name="beat" id="det-beat-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="alarm-active">Lantern Batt</label>
+                <span name="alarm-active" id="det-alarm-active-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-led-power">Lantern</label>
+                <span name="buoy-led-power" id="det-buoy-led-power-fid1">: 533003500</span>
+            </div>  
+            <div>
+                <label for="buoy-low-vin">Ambient</label>
+                <span name="buoy-low-vin" id="det-buoy-low-vin-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy_photocell">Door</label>
+                <span name="buoy_photocell" id="det-buoy-photocell-fid1">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-temp">Off Position</label>
+                <span name="buoy-temp" id="det-buoy-temp-fid1">: 533003500</span>
+            </div>                                                
+        </div>        
+
+        <div id="dac533-fid2" class="aton-detail-info">
+            <div>
+                <label for="aton">ATON</label>
+                <span name="aton" id="det-shiptype-fid2">: 1</span>
+            </div>
+            <div>
+                <label for="atonname">ATON Name</label>
+                <span name="atonname" id="det-shipname-fid2">: Langkawi</span>
+            </div>
+            <div>
+                <label for="mmsi">MMSI</label>
+                <span name="mmsi" id="det-mmsi-fid2">: 533003500</span>
+            </div>
+
+            <div>
+                <label for="voltage-int">ATON Volt.</label>
+                <span name="voltage-int" id="det-voltage-int-fid2">: 533003500</span>
+            </div>
+            <div>
+                <label for="voltage-ext1">Lantern Volt.</label>
+                <span name="voltage-ext1" id="det-voltage-ext1-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="thermal-temp">Racon Volt.</label>
+                <span name="thermal-temp" id="det-thermal-temp-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="off-pos">Off Position</label>
+                <span name="off-pos" id="det-off-pos-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="ldr">Ambient</label>
+                <span name="ldr" id="det-ldr-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="racon">Racon</label>
+                <span name="racon" id="det-racon-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="light">Light</label>
+                <span name="light" id="det-light-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="health">Health</label>
+                <span name="health" id="det-health-fid2">: 533003500</span>
+            </div>   
+            <div>
+                <label for="beat">Beat</label>
+                <span name="beat" id="det-beat-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="alarm-active">Main Lantern Cond.</label>
+                <span name="alarm-active" id="det-alarm-active-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-led-power">Main Lantern Status</label>
+                <span name="buoy-led-power" id="det-buoy-led-power-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="buoy-low-vin">Stdby Lantern Cond.</label>
+                <span name="buoy-low-vin" id="det-buoy-low-vin-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy_photocell">Stdby Lantern Status</label>
+                <span name="buoy_photocell" id="det-buoy-photocell-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-temp">Emerg. Lantern Cond.</label>
+                <span name="buoy-temp" id="det-buoy-temp-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-force-off">Emerg. Lantern Status</label>
+                <span name="buoy-force-off" id="det-buoy-force-off-fid2">: 533003500</span>
+            </div>  
+            <div>
+                <label for="buoy-islight">Optic Drv A Status</label>
+                <span name="buoy-islight" id="det-buoy-islight-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-short">Optic Drv A cond.</label>
+                <span name="buoy-errled-short" id="det-buoy-errled-short-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-open">Optic Drv B Status</label>
+                <span name="buoy-errled-open" id="det-buoy-errled-open-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-voltlow">Optic Drv B cond.</label>
+                <span name="buoy-errled-voltlow" id="det-buoy-errled-voltlow-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-vinlow">Hatch Door</label>
+                <span name="buoy-errled-vinlow" id="det-buoy-errled-vinlow-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-power">Main Power</label>
+                <span name="buoy-errled-power" id="det-buoy-errled-power-fid2">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-adjmaxpower">Batt. Sys. (BMS)</label>
+                <span name="buoy-adjmaxpower" id="det-buoy-adjmaxpower-fid2">: 533003500</span>
+            </div>                                                 
+        </div>
+
+        <div id="dac533-fid4" class="aton-detail-info">
+            <div>
+                <label for="aton">ATON</label>
+                <span name="aton" id="det-shiptype">: 1</span>
+            </div>
+            <div>
+                <label for="atonname">ATON Name</label>
+                <span name="atonname" id="det-shipname">: Langkawi</span>
+            </div>
+            <div>
+                <label for="mmsi">MMSI</label>
+                <span name="mmsi" id="det-mmsi">: 533003500</span>
+            </div>
+
+            <div>
+                <label for="voltage-int">ATON Volt.</label>
+                <span name="voltage-int" id="det-voltage-int">: 533003500</span>
+            </div>
+            <div>
+                <label for="voltage-ext1">Lantern Volt.</label>
+                <span name="voltage-ext1" id="det-voltage-ext1">: 533003500</span>
+            </div>  
+            <div>
+                <label for="thermal-temp">Thermal Temp.</label>
+                <span name="thermal-temp" id="det-thermal-temp">: 533003500</span>
+            </div>  
+            <div>
+                <label for="off-pos">Off Position</label>
+                <span name="off-pos" id="det-off-pos">: 533003500</span>
+            </div>  
+            <div>
+                <label for="ldr">Ambient</label>
+                <span name="ldr" id="det-ldr">: 533003500</span>
+            </div>  
+            <div>
+                <label for="racon">Racon</label>
+                <span name="racon" id="det-racon">: 533003500</span>
+            </div> 
+            <div>
+                <label for="light">Light</label>
+                <span name="light" id="det-light">: 533003500</span>
+            </div> 
+            <div>
+                <label for="health">Health</label>
+                <span name="health" id="det-health">: 533003500</span>
+            </div>   
+            <div>
+                <label for="beat">Beat</label>
+                <span name="beat" id="det-beat">: 533003500</span>
+            </div> 
+            <div>
+                <label for="alarm-active">AlarmActive</label>
+                <span name="alarm-active" id="det-alarm-active">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-led-power">FlshrOffByLedPowerThres</label>
+                <span name="buoy-led-power" id="det-buoy-led-power">: 533003500</span>
+            </div>  
+            <div>
+                <label for="buoy-low-vin">FlshrOffByLowVin</label>
+                <span name="buoy-low-vin" id="det-buoy-low-vin">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy_photocell">FlshrOffByPhotocell</label>
+                <span name="buoy_photocell" id="det-buoy-photocell">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-temp">FlshrOffByTemp.</label>
+                <span name="buoy-temp" id="det-buoy-temp">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-force-off">FlshrOffByForceOff</label>
+                <span name="buoy-force-off" id="det-buoy-force-off">: 533003500</span>
+            </div>  
+            <div>
+                <label for="buoy-islight">IsNight</label>
+                <span name="buoy-islight" id="det-buoy-islight">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-short">ErrLedShort</label>
+                <span name="buoy-errled-short" id="det-buoy-errled-short">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-open">ErrLedOpen</label>
+                <span name="buoy-errled-open" id="det-buoy-errled-open">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-voltlow">ErrLedVoltageLow</label>
+                <span name="buoy-errled-voltlow" id="det-buoy-errled-voltlow">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-vinlow">ErrVinLow</label>
+                <span name="buoy-errled-vinlow" id="det-buoy-errled-vinlow">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-errled-power">ErrLedPowerThres</label>
+                <span name="buoy-errled-power" id="det-buoy-errled-power">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-adjmaxpower">FlshrAdjToLedMaxAvgPwr</label>
+                <span name="buoy-adjmaxpower" id="det-buoy-adjmaxpower">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-sensor-interrupt">GsensorInterruptOccurred</label>
+                <span name="buoy-sensor-interrupt" id="det-buoy-sensor-interrupt">: 533003500</span>
+            </div> 
+            <div>
+                <label for="buoy-solarcharging">SolarChargingOn</label>
+                <span name="buoy-solarcharging" id="det-buoy-solarcharging">: 533003500</span>
+            </div>                                                 
+        </div>
+    </div>
+
+
+
+    <script src="{{url_for('static', filename='aton.js')}}"></script>    
+{% endblock content %}
+
