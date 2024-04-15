@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: py-mobilenav-linux
+  labels:
+    app: py-mobilenav-linux
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: py-mobilenav-linux
+  template:
+    metadata:
+      labels:
+        app: py-mobilenav-linux
+    spec:
+      containers:
+      - name: py-mobilenav-linux
+        image: azzulhisham/py-mobilenav-linux
+        ports:
+        - containerPort: 3838
+        env:
+        - name: FLASK_ENV
+          value: "production"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: py-mobilenav-linux-service
+  labels:
+    app: py-mobilenav-linux
+spec:
+  selector:
+    app: py-mobilenav-linux
+  ports:
+  - name: http
+    protocol: TCP
+    port: 3838
+    targetPort: 3838
+  type: LoadBalancer

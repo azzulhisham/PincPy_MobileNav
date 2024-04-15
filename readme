@@ -1,0 +1,15 @@
+
+# Install all requirement libraries using pip
+pip install -r requirement.txt
+
+# run the flask application using the following command
+python ./app/main.py
+
+# to build docker image
+docker build --platform linux/amd64 -t azzulhisham/py-mobilenav-linux .  
+
+# to run the docker image
+docker run -p 3838:3838 azzulhisham/py-mobilenav-linux
+
+# push image to docker hub
+docker push azzulhisham/py-mobilenav-linux
